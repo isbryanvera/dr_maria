@@ -2,7 +2,7 @@ import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "f
 
 const NavBar = () => {
   return (
-    <Navbar className="max-w-screen-xl my-0 mx-auto" fluid rounded>
+    <Navbar className="max-w-screen-xl my-0 mx-auto bg-transparent z-10 relative lg:py-14" fluid rounded>
       <NavbarBrand href="/">
         {/* <img src="/favicon.svg" className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" /> */}
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Dra Maria Baeza</span>
