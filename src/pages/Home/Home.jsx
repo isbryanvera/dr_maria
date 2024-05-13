@@ -6,7 +6,7 @@ import { Card } from "../../components/organisms/Card/Card";
 import { Carousel } from "flowbite-react";
 import { HorizontalCard } from "../../components/organisms/HorizontalCard/HorizontalCard";
 import { HorizontalCardVariant } from "../../components/organisms/HorizontalCardVariant/HorizontalCardVariant";
-import { Map } from "../../components/Map/Map";
+import { MoreInfo } from "../../components/MoreInfo/MoreInfo";
 
 const Home = () => {
   return (
@@ -59,35 +59,7 @@ const Home = () => {
           <p className="text-blue-500 ">“Mi objetivo es la satisfacción de mis pacientes, ayudarles a mejorar su salud, en todos los sentidos, con una mejor versión de sí mismos”</p>
       </div>
 
-      <section className="flex flex-col items-center gap-8 w-full">
-        <form className="w-full max-w-md mx-auto">
-          <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full px-3">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="name">
-                Nombre
-              </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="name" type="text" placeholder="Juan Pérez" />
-            </div>
-            <div className="w-full px-3 mt-6">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="email">
-                Correo Electrónico
-              </label>
-              <input className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="email" type="email" placeholder="juanperez@example.com" />
-            </div>
-            <div className="w-full px-3 mt-6">
-              <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="message">
-                Mensaje
-              </label>
-              <textarea className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="message" placeholder="Escribe tu mensaje aquí..." rows="5"></textarea>
-            </div>
-            <div className="w-full px-3 mt-6">
-              <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-                Enviar
-              </button>
-            </div>
-          </div>
-        </form>
-      </section>
+      <MoreInfo/>
     </>
   );
 };
