@@ -4,4 +4,13 @@
 
 .utility-1{
     width: calc(100vw - 16px);
+    z-index: 100;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    text-wrap: pretty;
 }

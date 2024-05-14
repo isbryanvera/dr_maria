@@ -1,4 +1,5 @@
 import { Avatar } from "flowbite-react";
+import { CallToAction } from "../CallToAction/CallToAction";
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         </div>
         <div className="flex gap-12 items-center">
           <Badge></Badge>
-          <CallToAction></CallToAction>
+          <CallToAction/>
         </div>
       </div>
       <div className="relative lg:w-1/2">
@@ -28,18 +29,12 @@ const Hero = () => {
 
 const Badge = () => {
   return (
-    <Avatar className="bg-white p-4 rounded-xl" img="/images/people/profile-picture-5.jpg" rounded>
+    <Avatar className="bg-white p-4 rounded-xl" img="/src/assets/svg/Profile.svg" rounded>
       <div className="font-medium dark:text-white ">
         <div>Dra Maria Baeza</div>
         <div className="text-sm text-gray-500 dark:text-gray-400">Otorrina</div>
       </div>
     </Avatar>
-  );
-}
-
-const CallToAction = () => {
-  return (
-    <button className="bg-blue-700 text-white py-4 px-8 rounded-xl">Agenda tu cita</button>
   );
 }
 

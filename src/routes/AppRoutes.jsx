@@ -9,6 +9,7 @@ import { NotFound } from "../pages/NotFound/NotFound"
 const AppRoutes = () => {
     let routes = useRoutes([
       { path: "/", element: <Home/> },
+      { path: "/rinoplastia", element: <Home/> },
       { path: "/sobre-mi", element: <AboutUs></AboutUs>},
       { path: "/contacto", element: <Contact></Contact>},
       { path: "/preguntas", element: <FAQ></FAQ>},

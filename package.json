@@ -16,7 +16,7 @@
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
-    "@types/react": "^18.2.66",
+    "@types/react": "^16.14.60",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.19",
