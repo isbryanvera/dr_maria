@@ -1,8 +1,8 @@
 import { Avatar } from "flowbite-react";
 
-const Form = () => {
+const Form = ({isMain}) => {
   return (
-    <section className="flex flex-col items-center gap-8 bg-white px-8 py-10 rounded-3xl ">
+    <section className={`flex flex-col items-center bg-white px-8 py-10 rounded-3xl h-full ${isMain ? 'lg:absolute' : ''}`}>
       <div className="flex flex-wrap gap-2">
         <Avatar size="xl" img="/src/assets/svg/Profile.svg" status="online" />
       </div>

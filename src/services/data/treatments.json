@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Rinoplastia",
+        "description": "La rinoplastia es un procedimiento quirúrgico que se realiza para mejorar la forma, el tamaño o la función de la nariz. Esta cirugía puede corregir problemas estéticos como una nariz grande, una punta nasal caída o una giba nasal, así como problemas respiratorios como desviaciones del tabique nasal. Las ventajas de la rinoplastia incluyen una apariencia facial más equilibrada, una mejor respiración y una mayor confianza en uno mismo.",
+        "image": "https://drcarlosgamboa.com/wp-content/uploads/2018/09/5.1-imagen.jpg",
+        "hook":"Transforma tu nariz con nuestro procedimiento de rinoplastia experto."
+    },
+    {
+        "id": 2,
+        "title": "Bichectomia",
+        "description": "La bichectomía es un procedimiento quirúrgico que se realiza para reducir el tamaño de las mejillas eliminando parte de las bolsas de grasa de Bichat. Este procedimiento puede ayudar a definir los contornos faciales y crear una apariencia más delgada en el rostro. Las ventajas de la bichectomía incluyen resultados inmediatos y permanentes, una recuperación rápida y mínimas cicatrices visibles.",
+        "image": "https://staticnew-prod.topdoctors.cl/files/Image/large/ec775f1836f4e61ae63873e5eb3773d4.jpg",
+        "hook":"Define tu rostro con nuestra cirugía de reducción de mejillas."
+    },
+    {
+        "id": 3,
+        "title": "Otoplastia",
+        "description": "La otoplastia es un procedimiento quirúrgico que se realiza para corregir las orejas prominentes o con forma irregular. Este procedimiento puede mejorar la forma, la posición o el tamaño de las orejas para que estén más en proporción con el resto de la cara. Las ventajas de la otoplastia incluyen una apariencia facial más equilibrada, una mayor confianza en uno mismo y resultados permanentes.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4PmoN67ivr5T-iKLVlXnrznk9JfkUVKiTV0WRsTK50A&s",
+        "hook":"Corrige las orejas prominentes y recupera tu confianza."
+    },
+    {
+        "id": 4,
+        "title": "Implante de mentón",
+        "description": "El implante de mentón es un procedimiento quirúrgico que se realiza para mejorar la proyección o el contorno del mentón. Este procedimiento puede ayudar a equilibrar la forma facial y mejorar la armonía de los rasgos faciales. Las ventajas del implante de mentón incluyen resultados permanentes, una recuperación rápida y mínimas cicatrices visibles.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcZrRi5JM_2Hd2yxUuhqkmxj0msAFhKw-efPk6963vpwElRKfb8pKixf97pgWU-7hon-E&usqp=CAU",
+        "hook":"Mejora la estructura de tu rostro con un implante de mentón personalizado."
+    },
+    {
+        "id": 5,
+        "title": "Lipoaspiración de papada",
+        "description": "La lipoaspiración de papada es un procedimiento quirúrgico que se realiza para eliminar el exceso de grasa debajo de la barbilla y el cuello. Este procedimiento puede mejorar la definición del contorno facial y crear una apariencia más juvenil y tonificada. Las ventajas de la lipoaspiración de papada incluyen resultados inmediatos y permanentes, una recuperación rápida y mínimas cicatrices visibles.",
+        "image": "https://staticnew-prod.topdoctors.mx/article/17284/image/large/ac032c26d6dc6e5f91a1e36e54ebfd05.jpg",
+        "hook":"Elimina la grasa no deseada debajo de tu mentón para un perfil más definido."
+    },
+    {
+        "id": 6,
+        "title": "Toxina botulínica",
+        "description": "La toxina botulínica, también conocida como Botox, es un tratamiento no quirúrgico que se utiliza para suavizar las arrugas y líneas de expresión faciales. Este tratamiento funciona bloqueando temporalmente los nervios que controlan los músculos faciales, lo que reduce la apariencia de las arrugas. Las ventajas de la toxina botulínica incluyen resultados rápidos y visibles, un procedimiento rápido y sin tiempo de inactividad, y una apariencia natural y rejuvenecida.",
+        "image": "https://draluisaguerra.com/wp-content/uploads/2021/04/Toxina-Botulinica-1024x538.jpg",
+        "hook":"Suaviza las arrugas y líneas de expresión para una apariencia más juvenil."
+    }
+]

@@ -6,18 +6,22 @@ import { Results } from "../../components/Results/Results";
 import { HorizontalCardVariant } from "../../components/organisms/HorizontalCardVariant/HorizontalCardVariant";
 import { MoreInfo } from "../../components/MoreInfo/MoreInfo";
 import { Publicity } from "../../components/Publicity/Publicity";
+// -- Data
+import dataCard from '../../services/data/dataCards.json';
 
 const Home = () => {
   return (
     <>
-      <Hero></Hero>
+      <Hero/>
       <Blob className='absolute -top-10 w-[800px] right-[15%]'/>
       <TratementsList/>
       <Results/>
       <section className="flex flex-col gap-16 w-full">
-        <HorizontalCard></HorizontalCard>
-        <HorizontalCardVariant></HorizontalCardVariant>
-        <HorizontalCard></HorizontalCard>
+        {dataCard.map((card, index) => (
+          card.content.length !== 0 
+            ? <HorizontalCardVariant {...card} key={index}/> 
+            : <HorizontalCard {...card} key={index}/>
+        ))}
       </section>
       <Publicity/>
       <MoreInfo/>

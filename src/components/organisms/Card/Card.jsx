@@ -1,17 +1,18 @@
-import './Card.module.css';
+import { ViewMoreIcon } from '../../../assets/svg/ViewMoreIcon';
+import { TreatmentIcon } from '../../../assets/svg/TreatmentIcon';
 
-const Card = () => {
+const Card = ({title,hook}) => {
   return (
-    <article className='bg-white drop-shadow-md flex flex-col gap-10 p-8 items-center rounded-lg'>
+    <article className='bg-white drop-shadow-md flex flex-col justify-between h-[300px] py-8 px-4 items-center rounded-lg'>
       <div className='flex flex-col gap-4 items-center' >
-        <span>Icono</span>
-        <h3 className='font-medium text-2xl	'>Rinoplastia</h3>
-        <p className='text-center'>Transforma tu nariz con nuestro procedimiento de rinoplastia experto.</p>
+        <TreatmentIcon/>
+        <h3 className='font-medium text-2xl	text-center'>{title}</h3>
+        <p className='text-center'>{hook}</p>
       </div>
-      <div className='flex'>
+      <a className='flex cursor-pointer gap-2 justify-end' href='/tratamientos'>
         <p className='font-medium'>Ver mas</p>
-        <span> + </span>
-      </div>
+        <ViewMoreIcon/>
+      </a>
     </article>
   );
 };

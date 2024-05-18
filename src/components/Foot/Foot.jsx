@@ -11,7 +11,7 @@ const Foot = () => {
             alt="Dra Maria Baeza"
             name="Dra Maria Baeza"
           />
-          <FooterLinkGroup>
+          <FooterLinkGroup className="justify-center">
             <FooterLink href="/tratamientos">Tratamientos</FooterLink>
             <FooterLink href="/preguntas">FAQ</FooterLink>
             <FooterLink href="/sobre-mi">Sobre mi</FooterLink>

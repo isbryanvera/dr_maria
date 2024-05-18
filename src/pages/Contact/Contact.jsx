@@ -6,7 +6,7 @@ const Contact = () => {
     <>
       <div className='flex items-center gap-[100px]'>
         <Form className="w-2/3"></Form>
-        <figure className="w-auto self-start">
+        <figure className="w-auto self-start hidden lg:block">
           <img className="w-full h-full object-cover" src="/src/assets/images/Doctor.png" alt="" />
         </figure>
       </div>

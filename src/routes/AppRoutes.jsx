@@ -5,11 +5,12 @@ import { Contact } from "../pages/Contact/Contact"
 import { FAQ } from "../pages/FAQ/FAQ"
 import { Treatment } from "../pages/Treatment/Treatment"
 import { NotFound } from "../pages/NotFound/NotFound"
+import { Rinoplastia } from "../pages/Rinoplastia/Rinoplastia"
 
 const AppRoutes = () => {
     let routes = useRoutes([
       { path: "/", element: <Home/> },
-      { path: "/rinoplastia", element: <Home/> },
+      { path: "/rinoplastia", element: <Rinoplastia/> },
       { path: "/sobre-mi", element: <AboutUs></AboutUs>},
       { path: "/contacto", element: <Contact></Contact>},
       { path: "/preguntas", element: <FAQ></FAQ>},

@@ -1,15 +1,17 @@
 import { TreatmentCard } from "../../components/TreatmentCard/TreatmentCard";
+import treatmentCard from '../../services/data/treatments.json';
+
 
 const Treatment = () => {
   return (
     <>
       <h2 className="text-6xl">Tratamientos</h2>
-      <TreatmentCard  url={"/src/assets/images/ejemploResult.png"}></TreatmentCard>
-      <TreatmentCard isReversed={true} url={"/src/assets/images/ejemploResult2.png"}></TreatmentCard>
-      <TreatmentCard  url={"/src/assets/images/ejemploResult.png"}></TreatmentCard>
-      <TreatmentCard isReversed={true} url={"/src/assets/images/ejemploResult2.png"}></TreatmentCard> 
-      <TreatmentCard  url={"/src/assets/images/ejemploResult.png"}></TreatmentCard>
-      <TreatmentCard  isReversed={true} url={"/src/assets/images/ejemploResult2.png"}></TreatmentCard> 
+      {treatmentCard.map((card, index) => {
+        const isReversed = index % 2 === 0;
+        return(
+          <TreatmentCard {...card} isReversed={isReversed} key={index}/>
+        )
+      })}
     </>
   );
 };

@@ -12,7 +12,7 @@ const NavBar = () => {
         <NavbarLink href="/" active>
           Home
         </NavbarLink>
-        <NavbarLink href="/">
+        <NavbarLink href="/rinoplastia">
           Rinoplastia
         </NavbarLink>
         <NavbarLink href="/tratamientos">Tratamientos</NavbarLink>
