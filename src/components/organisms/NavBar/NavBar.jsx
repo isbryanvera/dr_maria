@@ -15,10 +15,10 @@ const NavBar = () => {
         <NavbarLink href="/rinoplastia">
           Rinoplastia
         </NavbarLink>
-        <NavbarLink href="/tratamientos">Tratamientos</NavbarLink>
-        <NavbarLink href="/sobre-mi">Sobre mi</NavbarLink>
-        <NavbarLink href="/preguntas">FAQ</NavbarLink>
-        <NavbarLink href="/contacto">Contactame</NavbarLink>
+        <NavbarLink href="./tratamientos">Tratamientos</NavbarLink>
+        <NavbarLink href="./sobre-mi">Sobre mi</NavbarLink>
+        <NavbarLink href="./preguntas">FAQ</NavbarLink>
+        <NavbarLink href="./contacto">Contactame</NavbarLink>
       </NavbarCollapse>
     </Navbar>
   );

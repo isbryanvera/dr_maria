@@ -7,7 +7,7 @@ const Foot = () => {
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FooterBrand
             href="https://flowbite.com"
-            src="/src/assets/svg/Profile.svg"
+            src="./src/assets/svg/Profile.svg"
             alt="Dra Maria Baeza"
             name="Dra Maria Baeza"
           />
