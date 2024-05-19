@@ -1,4 +1,5 @@
 import { Footer, FooterBrand, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup } from "flowbite-react";
+import imgProfile from '../../assets/svg/Profile.svg';  
 
 const Foot = () => {
   return (
@@ -7,7 +8,7 @@ const Foot = () => {
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <FooterBrand
             href="https://flowbite.com"
-            src="./src/assets/svg/Profile.svg"
+            src={imgProfile}
             alt="Dra Maria Baeza"
             name="Dra Maria Baeza"
           />

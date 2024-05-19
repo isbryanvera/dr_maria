@@ -1,3 +1,4 @@
+import imgAboutMe from '../../assets/images/Doctor.png';
 
 const Biography = () => {
   return (
@@ -11,7 +12,7 @@ const Biography = () => {
         <p>We work hard to stay up to date with the most advanced techniques and technologies to ensure that our patients receive the best care possible. Our office utilizes 3D CBCT radiographs to allow for guided surgical and endodontic protocols. This enables these procedures to performed digitally before they are performed surgically to ensure optimal results. 3D imaging also is utilized for the analysis of airway growth and development. We also use the best 3D optical scanner for all of our dental restoration and Invisalign impressions. Dr Williams is a strong advocate for using microsurgical techniques, this means less discomfort and faster healing times.</p>
       </div>
       <figure className="w-1/3 min-w-[400px] order-1 lg:order-2">
-        <img className="w-full h-full object-cover" src="/src/assets/images/Doctor.png" alt="" />
+        <img className="w-full h-full object-cover" src={imgAboutMe} alt="" />
       </figure>
     </div>
   );
