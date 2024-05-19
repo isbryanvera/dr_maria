@@ -1,10 +1,12 @@
 import { Avatar } from "flowbite-react";
+import imgProfile from '../../assets/svg/Profile.svg';
+
 
 const Form = ({isMain}) => {
   return (
     <section className={`flex flex-col items-center bg-white px-8 py-10 rounded-3xl h-full ${isMain ? 'lg:absolute' : ''}`}>
       <div className="flex flex-wrap gap-2">
-        <Avatar size="xl" img="/src/assets/svg/Profile.svg" status="online" />
+        <Avatar size="xl" img={imgProfile} status="online" />
       </div>
       <h3 className="font-medium text-blue-500 text-2xl">¿Como puedo ayudarte?</h3>
       <form className="w-full max-w-md mx-auto">

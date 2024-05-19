@@ -1,5 +1,7 @@
 import { Badge } from "../Badge/Badge";
 import { CallToAction } from "../CallToAction/CallToAction";
+import imgDoc1 from "../../assets/images/foto1.png";
+import imgDoc2 from "../../assets/images/foto2.png";
 
 const Hero = () => {
   return (
@@ -16,8 +18,8 @@ const Hero = () => {
       </div>
       <div className="relative lg:w-1/2">
         <figure className="flex justify-between gap-3 h-full">
-          <img className="h-auto w-1/2 max-w-[308px]	self-end" src="./src/assets/images/foto1.png" alt="" />
-          <img className="h-auto w-1/2	max-w-[308px] self-start" src="./src/assets/images/foto2.png" alt="" />
+          <img className="h-auto w-1/2 max-w-[308px]	self-end" src={imgDoc1} alt="Foto alusiva a la doctora" />
+          <img className="h-auto w-1/2	max-w-[308px] self-start" src={imgDoc2} alt="Foto alusiva a la doctora" />
         </figure>
         <div className="bg-white p-2 text-center absolute bottom-6 right-6 shadow-md max-w-[500px] rounded-xl">
           <p className="text-blue-500 font-medium	">Cirujana facial y experta en rinoplastia. Te ayudará a buscar el equilibro entre la salud y la belleza.</p>
