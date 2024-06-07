@@ -1,36 +1,12 @@
 [
     {
         "id": 1,
-        "title": "5 Años de experiencia en procedimientos de Rinoplastia",
+        "title": "13 Años de experiencia medica y quirurgica",
         "description": "Entiendo que tomar la decisión de someterte a un procedimiento estético puede generar dudas y preocupaciones. Por eso, estoy aquí para ofrecerte tranquilidad y confianza en cada paso del camino. ",
-        "image": "https://images.pexels.com/photos/12454223/pexels-photo-12454223.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "urlCallToAction": "./rinoplastia",
-        "nameCallToAction":"Rinoplastia",
-        "content": [          
-        ]
-    },
-    {
-        "id": 2,
-        "title": " Razones para tomar esta desicion.",
-        "description": "Te ofrezco procedimientos de alta calidad, con una experiencia excepcional desde el primer contacto hasta tu recuperación. Al elegirnos, obtendrás:",
-        "image": "https://images.pexels.com/photos/5215017/pexels-photo-5215017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        "content": [
-            "Resultados Naturales",
-            "Atención Personalizada",
-            "Tecnología de Vanguardia",
-            "Confianza y Seguridad",
-            "Profesionalismo y Experiencia"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Profesionalismo y Experiencia",
-        "description": "Me enorgullece ofrecer un servicio de alta calidad respaldado por la experiencia y el profesionalismo de la Dra. [Nombre]. Con más de [X años] de experiencia en rinoplastia y cirugía plástica, la Dra. [Nombre] ha ayudado a numerosos pacientes a lograr resultados hermosos y naturales.",
-        "image": "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "image": "/src/assets/images/retrato.jpeg",
         "urlCallToAction": "./sobre-mi",
-        "nameCallToAction":"Conoce Mas",
-        "content": [
-            
+        "nameCallToAction":"Sobre mi",
+        "content": [          
         ]
     }
 ]

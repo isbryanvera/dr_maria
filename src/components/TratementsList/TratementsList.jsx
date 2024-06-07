@@ -9,7 +9,7 @@ const TratementsList = () => {
     <section className="flex flex-col gap-8 items-center relative">
         <Blob2 className='absolute top-0 w-full max-w-[812px] aspect-square'/>
         <h2 className="text-6xl text-pretty">Mis Tratamientos</h2>
-        <p className="max-w-[836px] text-center">Te puedo ayudar en una amplia variedad de procedimientos diseñados para realzar tu belleza de manera natural y segura. Cada procedimiento está realizado con precisión y cuidado para garantizar resultados excepcionales que te harán sentir seguro y radiante.</p>
+        <p className="max-w-[836px] text-center">Te puedo ayudar en una amplia variedad de procedimientos diseñados de manera natural y segura.</p>
         <Grid>
           {treatmentCard.map(({title,hook}, index) => (
             <Card title={title} hook={hook} key={index}/>

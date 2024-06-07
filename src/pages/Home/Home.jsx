@@ -5,7 +5,6 @@ import { TratementsList } from "../../components/TratementsList/TratementsList";
 import { Results } from "../../components/Results/Results";
 import { HorizontalCardVariant } from "../../components/organisms/HorizontalCardVariant/HorizontalCardVariant";
 import { MoreInfo } from "../../components/MoreInfo/MoreInfo";
-import { Publicity } from "../../components/Publicity/Publicity";
 // -- Data
 import dataCard from '../../services/data/dataCards.json';
 
@@ -23,7 +22,10 @@ const Home = () => {
             : <HorizontalCard {...card} key={index}/>
         ))}
       </section>
-      <Publicity/>
+      <div className="bg-white p-2 text-center shadow-md text-xl rounded-xl max-w-5xl mx-auto">
+        <p className="text-blue-500 ">“Lo que mas me gusta de mi profesión es ayudar a las personas a sentirse mejor consigo misma, recuperar su confianza, y mejorar la funcionalidad de su nariz.
+Disfruto el contacto cercano y la relación que tengo con mis pacientes.”</p>
+      </div>
       <MoreInfo/>
     </>
   );

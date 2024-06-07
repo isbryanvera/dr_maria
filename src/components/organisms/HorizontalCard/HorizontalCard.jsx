@@ -8,7 +8,7 @@ const HorizontalCard = ({title,description,image,urlCallToAction,nameCallToActio
       <div className='flex flex-col gap-8 lg:max-w-[565px] self-center'>
         <h3 className='text-balance text-4xl font-medium'>{title}</h3>
         <p className='text-pretty'>{description}</p>
-        <a href={urlCallToAction} className='p-4 bg-blue-700 text-white rounded-lg w-fit self-center'>{nameCallToAction}</a>
+        <a href={urlCallToAction} className='p-4 bg-blue-700 text-white rounded-lg w-fit'>{nameCallToAction}</a>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ const Foot = () => {
           </FooterLinkGroup>
         </div>
         <FooterDivider />
-        <FooterCopyright href="#" by="Bisturi Digital™" year={2024} />
+        <FooterCopyright href="#" by="Bisturi Agency" year={2024} />
       </div>
     </Footer>
   );

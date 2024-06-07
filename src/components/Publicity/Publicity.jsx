@@ -6,7 +6,8 @@ const Publicity = () => {
     <div className="utility-1 relative flex flex-col gap-8">
       {/* <Blob2 className='absolute -top-1/2 right-60 -z-10'/> */}
       <div className="bg-white p-2 text-center shadow-md text-xl rounded-xl max-w-5xl mx-auto">
-        <p className="text-blue-500 ">“Mi objetivo es la satisfacción de mis pacientes, ayudarles a mejorar su salud, en todos los sentidos, con una mejor versión de sí mismos”</p>
+        <p className="text-blue-500 ">“Lo que mas me gusta de mi profesión es ayudar a las personas a sentirse mejor consigo misma, recuperar su confianza, y mejorar la funcionalidad de su nariz.
+Disfruto el contacto cercano y la relación que tengo con mis pacientes.”</p>
       </div>
       <section className="w-full py-[72px] z-50 p-5  bg-[#011632] text-white">
         <div className="flex flex-col gap-8 w-full max-w-5xl mx-auto">
