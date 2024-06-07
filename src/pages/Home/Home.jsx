@@ -3,8 +3,8 @@ import { Blob } from "../../assets/svg/Blob";
 import { HorizontalCard } from "../../components/organisms/HorizontalCard/HorizontalCard";
 import { TratementsList } from "../../components/TratementsList/TratementsList";
 import { Results } from "../../components/Results/Results";
-import { HorizontalCardVariant } from "../../components/organisms/HorizontalCardVariant/HorizontalCardVariant";
 import { MoreInfo } from "../../components/MoreInfo/MoreInfo";
+import imgTeam from "../../assets/images/team.jpeg";
 // -- Data
 import dataCard from '../../services/data/dataCards.json';
 
@@ -17,9 +17,7 @@ const Home = () => {
       <Results/>
       <section className="flex flex-col gap-16 w-full">
         {dataCard.map((card, index) => (
-          card.content.length !== 0 
-            ? <HorizontalCardVariant {...card} key={index}/> 
-            : <HorizontalCard {...card} key={index}/>
+          <HorizontalCard {...card} key={index} imagen={imgTeam}/>
         ))}
       </section>
       <div className="bg-white p-2 text-center shadow-md text-xl rounded-xl max-w-5xl mx-auto">

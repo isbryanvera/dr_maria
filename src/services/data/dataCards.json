@@ -3,8 +3,7 @@
         "id": 1,
         "title": "13 Años de experiencia medica y quirurgica",
         "description": "Entiendo que tomar la decisión de someterte a un procedimiento estético puede generar dudas y preocupaciones. Por eso, estoy aquí para ofrecerte tranquilidad y confianza en cada paso del camino. ",
-        "image": "/src/assets/images/retrato.jpeg",
-        "urlCallToAction": "./sobre-mi",
+        "urlCallToAction": "imgTeam",
         "nameCallToAction":"Sobre mi",
         "content": [          
         ]
