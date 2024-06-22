@@ -13,7 +13,7 @@ const Rinoplastia = () => {
               src="https://images.pexels.com/photos/12454223/pexels-photo-12454223.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
           </figure>
           <div className='flex flex-col gap-8 md:w-3/5'>
-            <h2 className='text-balance text-6xl text-center md:text-start'>Rinoplastia</h2>
+            <h2 className='text-balance text-6xl text-center md:text-start'>Rinoplastía</h2>
             <p className='text-pretty'>La rinoplastía es una cirugía que busca mejorar la forma de la nariz para lograr una imagen lo más acorde posible a tu cara y a tus expectativas. Puede ser solo estética o también incorporar el manejo de la parte funcional, permitiendo una mejoría importante de la respiración según cada caso.
             </p>
             <p className='text-pretty'>En esta cirugía ocupamos equipos de último nivel en busca de disminuir el edema y optimizar los resultados.</p>
@@ -64,15 +64,7 @@ const Rinoplastia = () => {
       <div className='flex flex-col gap-10'>
         <h3 className='text-4xl'>Conoce mas sobre el procedimiento</h3>
         <div className="flex justify-center w-full">
-          <iframe className="w-full max-w-4xl rounded-2xl"
-            width="560"
-            height="400"
-            src="https://www.youtube.com/embed/VIDEO_ID"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+        <iframe className='rounded-2xl' width="350" height="622" src="https://www.youtube.com/embed/B3-ICBd4ng0" title="TESTIMONIO DE CAROLINA" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullscreen></iframe>
         </div>
       </div>
       <Accordion className='w-full'>

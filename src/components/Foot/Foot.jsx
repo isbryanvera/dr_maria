@@ -9,8 +9,8 @@ const Foot = () => {
           <FooterBrand
             href="https://flowbite.com"
             src={imgProfile}
-            alt="Dra Maria Baeza"
-            name="Dra Maria Baeza"
+            alt="Dra Ángeles Baeza"
+            name="Dra Ángeles Baeza"
           />
           <FooterLinkGroup className="justify-center">
             <FooterLink href="/tratamientos">Tratamientos</FooterLink>
