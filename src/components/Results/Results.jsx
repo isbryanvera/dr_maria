@@ -8,7 +8,7 @@ import result5 from '../../assets/images/p5.jpeg';
 const Results = () => {
   return (
     <section className="flex flex-col items-center gap-8 w-full">
-    <h2 className="text-6xl text-pretty">Mis Pacientes</h2>
+    <h2 className="text-3xl md:text-6xl text-pretty">Mis Pacientes</h2>
     <div className="h-[300px] sm:h-[400px] xl:h-[500px] w-full">
       <Carousel onSlideChange={(index) => console.log('onSlideChange()', index)}>
         <img src={result1} alt="..." />

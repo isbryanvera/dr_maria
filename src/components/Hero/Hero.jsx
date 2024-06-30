@@ -8,10 +8,10 @@ const Hero = () => {
     <section className="flex flex-col z-10 gap-10 items-center lg:flex-row lg:justify-between lg:h-[500px] lg:gap-0">
       <div className="flex flex-col gap-12 lg:w-[45%]">
         <div className="flex flex-col gap-6 text-center lg:text-start">
-          <h1 className="text-6xl text-pretty"><span className="text-blue-700">Especialista</span> en rinoplastia y cirugía plástica facial</h1>
+          <h1 className="text-4xl text-balance md:text-6xl md:text-pretty"><span className="text-blue-700">Especialista</span> en rinoplastía y cirugía plástica facial</h1>
           {/* <p className="text-pretty">Mereces ser la mejor versión de ti mismo, <span className="font-medium	">estoy aquí para realzar tu belleza de manera segura y profesional</span>  , con procedimientos de alta calidad brindandote resultados excepcionales y un cuidado personalizado. </p> */}
         </div>
-        <div className="flex gap-12 items-center justify-center lg:justify-start">
+        <div className="flex flex-col gap-4  md:flex-row md:gap-12 items-center justify-center lg:justify-start">
           <Badge></Badge>
           <CallToAction/>
         </div>
